@@ -3,21 +3,34 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <h1 className="text-3xl font-bold underline">
+        Software Engineer
+      </h1>
+      <div>
+        Name: Nunthawat
+      </div>
+      <div>
+        Lastname: Lhasiw
+      </div>
+      <div>
+        Nickname: Tao
+      </div>
+      <div>
+        Birthday: 12 Jul 1996
+      </div>
+      <div>
+        063114088
+      </div>
+      <div>
+        https://www.linkedin.com/in/nunthawat-lhasiw-082655146/
+      </div>
+      <div>
+        https://github.com/
+      </div>
+      <div>
+        https://www.figma.com/
+      </div>
     </div>
   );
 }
