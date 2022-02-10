@@ -4,6 +4,10 @@ module.exports = {
   ],
   theme: {
     extend: {},
+    fontFamily: {
+      'mono': ['ui-monospace', 'SFMono-Regular', 'Courier New'],
+      'sans':['-apple-system', 'BlinkMacSystemFont']
+    }
   },
   plugins: [],
 }
